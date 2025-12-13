@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <form action="http://localhost/method.php" method="post">
+    <input type="text" name="id">
+    <input type="password" name="pwd">
+    <input type="submit">
+  </form>
+  <!-- get방식으로 받게되면 url에 그대로 노출됨. method값을 세팅안해놓으면 기본으로 get방식으로 사용됨-->
+  <!-- post방식으로 사용하면 데이터가 숨겨짐. 거의 백프로 post로 사용됨. 데이터가 제대로 움직이는지 확인할때만 get방식으로 할듯...-->
+</body>
+</html>
